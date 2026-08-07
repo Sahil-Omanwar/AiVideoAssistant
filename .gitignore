@@ -1,0 +1,16 @@
+# Virtual environment
+myvenv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Project-specific
+downloads/
+*.wav
+*.mp3
+chroma_db/
+.streamlit/
