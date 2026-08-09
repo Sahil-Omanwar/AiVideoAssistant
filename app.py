@@ -111,6 +111,8 @@ with st.sidebar:
         st.divider()
         st.success("Analysis ready ✅")
 
+    st.write("Made by Sahil Omanwar🙂 ")
+
 
 if run_clicked and source:
     reset_session()
@@ -178,3 +180,5 @@ else:
                     st.markdown(answer)
 
             st.session_state.messages.append({"role": "assistant", "content": answer})
+
+
