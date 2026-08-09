@@ -1,16 +1,25 @@
 # Virtual environment
 myvenv/
 
-# Secrets
+# Environment variables / secrets
 .env
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Project-specific
+# Vector DB (generated data, will regenerate from transcripts)
+vector_db/
+
+# Downloaded audio/video files (large binaries, regenerable)
 downloads/
-*.wav
-*.mp3
-chroma_db/
-.streamlit/
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
